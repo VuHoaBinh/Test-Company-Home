@@ -3,12 +3,12 @@
     background-color:black;
     color:white;
     padding:70px;
+    h2{
+        font-size: 22px;
+        font-weight: bold;
+        padding-bottom:20px; 
+    }
     .OurAwards{
-        h2{
-            font-size: 22px;
-            font-weight: bold;
-            padding-bottom:20px; 
-        }
         p{
             font-size: 18px;
             color:rgb(187, 185, 185);
@@ -18,18 +18,13 @@
         }
     }
     .ContactInfo{
-        h2{
-            font-size: 22px;
-            font-weight: bold;
-            padding-bottom:20px; 
-        }
         span{
             font-size:18px;
+            color:rgb(187, 185, 185);
             i{
                 padding-right: 10px;
                 margin-bottom: 10px;
             }
-            color:rgb(187, 185, 185);
         }
         .socialMedia{
             i{
@@ -40,11 +35,6 @@
         }
     }
     .RecentTrips{
-        h2{
-            font-size: 22px;
-            font-weight: bold;
-            padding-bottom:20px; 
-        }
         img{
             cursor: pointer;
             padding-bottom: 10px;
@@ -53,11 +43,11 @@
         }
     }
     .MenuFooter{
+        text-align: right;
         span{
             margin: 10px;
             color:rgb(187, 185, 185);
         }
-        text-align: right;
         
     }
 }
