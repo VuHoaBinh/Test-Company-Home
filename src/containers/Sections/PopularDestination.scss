@@ -1,0 +1,27 @@
+.PopularDestination{
+    width: 100%;
+    
+    .content{
+        justify-content: center;
+        text-align: center;
+        padding:80px;
+        .row{
+            img{
+                width: 315px;
+                height: 320px;
+                cursor: pointer;
+                border-radius: 13px;
+                opacity: 0.85;
+            }
+            p{
+                position: absolute;
+                top: 262px;
+                left: 40px;
+                color: #ffffff;
+                font-weight: 800;
+                letter-spacing: 0px;
+                font-size: 24px;
+            }
+        }
+    }
+}

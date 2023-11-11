@@ -1,0 +1,32 @@
+.BestValueTrips{
+    .content{
+        margin-top: 100px;
+        .row{
+            .PackageTour{
+                border: 1px solid brown;
+                img{
+                    position: relative;
+                    width: 100%;
+                    height: auto;
+                    cursor: pointer;
+                }
+                .price{
+                    position: absolute;
+                    top: 256px;
+                    left: 15px;
+                    border: 1px solid brown;
+                    background-color: red;
+                    color: white;
+                    font-weight: bold;
+                    font-size: 21px;
+                    padding: 7px;
+                }
+                .rate{
+                    .time{
+                        text-align: right;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,31 @@
+video{
+    margin-bottom:-100px;
+}
+.header{
+    .logo{
+        position: absolute;
+        top:34px;
+        left:150px;
+    }
+    .menuHeader{
+        position: absolute;
+        top:10px;
+        right:120px;
+        .Level1_menu{
+            list-style-type: none;
+            li{
+                display: inline-block;
+                margin: 0px 5px;
+                padding:26px 17px 26px;
+                .Level2_menu{
+                    display: none;
+                    .Level3_menu{
+                    }
+            
+                }
+    
+            }
+        }
+       
+    }
+}
