@@ -392,7 +392,6 @@ class HomeHeader extends Component {
                 <a href="#">
                   <i
                     className="fa-solid fa-bars barMenu"
-                    onClick={(event) => this.onClickMenu(event)}
                   ></i>
                 </a>
               </li>
