@@ -1,0 +1,26 @@
+.WhyChooseUs{
+    .content{
+        margin-top: 100px;
+        .row{
+            justify-content: center;
+            text-align: center;
+            .PackagePlan{
+                margin:10px;
+                
+                img{
+                    width: 50%;
+                    height: auto;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+.backgroundImage{
+    background-image: url("https://themes-themegoods.b-cdn.net/grandtour/demo/wp-content/uploads/2016/12/pexels-photo-24377.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+    margin-top:-50px;
+}

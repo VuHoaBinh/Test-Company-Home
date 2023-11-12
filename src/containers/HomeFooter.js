@@ -44,38 +44,38 @@ class HomeFooter extends Component {
           </div>
           <div className="col-4 RecentTrips">
             <h2>Recent Trips</h2>
-            <div class="row">
-              <div class="col-4">
+            <div className="row">
+              <div className="col-4">
                 <img
                   src="https://live.staticflickr.com/8688/28760131762_e4a64b20c4_q.jpg"
                   alt="myphoto"
                 />
               </div>
-              <div class="col-4">
+              <div className="col-4">
                 <img
                   src="https://live.staticflickr.com/7519/27308262031_a6ebf0572e_q.jpg"
                   alt="myphoto"
                 />
               </div>
-              <div class="col-4">
+              <div className="col-4">
                 <img
                   src="https://live.staticflickr.com/7160/27287965356_60355f51d7_q.jpg"
                   alt="myphoto"
                 />
               </div>
-              <div class="col-4">
+              <div className="col-4">
                 <img
                   src="https://live.staticflickr.com/7365/27138570412_d25002a5c9_q.jpg"
                   alt="myphoto"
                 />
               </div>
-              <div class="col-4">
+              <div className="col-4">
                 <img
                   src="https://live.staticflickr.com/7543/26520497604_1df03a02bc_q.jpg"
                   alt="myphoto"
                 />
               </div>
-              <div class="col-4">
+              <div className="col-4">
                 <img
                   src="https://live.staticflickr.com/7502/27012097142_f1511b67bc_q.jpg"
                   alt="myphoto"

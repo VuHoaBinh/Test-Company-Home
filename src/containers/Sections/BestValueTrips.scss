@@ -1,29 +1,115 @@
-.BestValueTrips{
-    .content{
+.BestValueTrips {
+    .content {
         margin-top: 100px;
-        .row{
-            .PackageTour{
-                border: 1px solid brown;
-                img{
+
+        .row {
+            justify-content: center;
+
+            .PackageTour {
+                justify-content: center;
+                border: 1px solid #acaaaa;
+                margin: 5px;
+                padding: 0px;
+                transition: width 5s, height 6s;
+
+                img {
                     position: relative;
                     width: 100%;
                     height: auto;
                     cursor: pointer;
                 }
-                .price{
+
+                .sale {
                     position: absolute;
-                    top: 256px;
-                    left: 15px;
-                    border: 1px solid brown;
-                    background-color: red;
+                    top: -16px;
+                    right: -16px;
+                    color: rgb(251, 251, 251);
+                    background-color: #1EC6B6;
+                    padding: 10px 7px 10px 7px;
+                    color: #fff;
+                    font-weight: 600;
+                    font-size: 12px;
+                    border-radius: 50%;
+                }
+
+                .price {
+                    position: absolute;
+                    top: 200px;
+                    left: -1px;
+                    background-color: #f32c2c;
                     color: white;
                     font-weight: bold;
-                    font-size: 21px;
+                    font-size: 16px;
                     padding: 7px;
+                    border: none;
+
+                    .price-origin {
+                        color: rgb(162, 159, 159);
+                        text-decoration: line-through;
+                        font-size: 14px;
+                        padding-right: 3px;
+                    }
                 }
-                .rate{
-                    .time{
+
+                .nameTour {
+                    font-size: 20px;
+                    font-weight: 700;
+                    letter-spacing: 0px;
+                    padding: 10px;
+                    padding-bottom: 2px;
+                }
+
+                .cityTour {
+                    padding-left: 12px;
+                    font-size: 13px;
+                }
+
+                .rate {
+                    float: flex;
+                    padding: 10px;
+
+                    .time {
+                        float: right;
                         text-align: right;
+                    }
+                }
+            }
+
+            .PackageTour:hover {
+                margin: 15px;
+
+                .price {
+                    font-size: 16px;
+                    padding-right: 25px;
+                    padding: 10px;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 800px) {
+        .content {
+            .row {
+                .PackageTour {
+                    margin: 10px;
+
+                    .price {
+                        position: relative;
+                        font-size: 14px;
+                        padding-right: 10px;
+                        padding: 7px;
+                        top: -46px;
+                        left: 0px;
+                    }
+
+                    .nameTour {
+                        font-size: 18px;
+                        padding: 8px;
+                    }
+
+                    .cityTour {
+                        font-size: 12px;
+                        padding-left: 8px;
                     }
                 }
             }

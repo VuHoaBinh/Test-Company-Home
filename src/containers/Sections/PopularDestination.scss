@@ -12,6 +12,7 @@
                 cursor: pointer;
                 border-radius: 13px;
                 opacity: 0.85;
+                transition: width 0.1s, height 0.1s;
             }
             p{
                 position: absolute;
@@ -21,6 +22,46 @@
                 font-weight: 800;
                 letter-spacing: 0px;
                 font-size: 24px;
+                transition: width 0.1s, height 0.1s;
+
+            }
+            img:hover{
+                width: 325px;
+                height: 330px;
+                p{
+                    
+                    font-size: 26px;
+                }
+            }
+        }
+    }
+    @media (max-width: 800px) {
+        .content {
+            padding: 40px; 
+            .row {
+                img {
+                    width: 100%; 
+                    height: auto; 
+                    border-radius: 10px;
+                }
+
+                p {
+                    top: auto; 
+                    left: 20px; 
+                    font-size: 18px; 
+                    bottom: 10px; 
+                }
+
+                img:hover {
+                    width: 80%; 
+                    height: auto;
+                    p {
+                        top: auto; 
+                        left: auto; 
+                        font-size: 20px; 
+                        bottom: 10px; 
+                    }
+                }
             }
         }
     }
