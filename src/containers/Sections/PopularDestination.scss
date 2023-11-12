@@ -35,26 +35,29 @@
             }
         }
     }
-    @media (max-width: 800px) {
+}
+@media (max-width: 800px) {
+    .PopularDestination{
         .content {
-            padding: 40px; 
+            padding-left: 130px; 
             .row {
                 img {
-                    width: 100%; 
-                    height: auto; 
-                    border-radius: 10px;
+                    width: 80px; 
+                    height: 100px; 
+                    border-radius: 20px;
+                    padding:10px;
                 }
-
+    
                 p {
                     top: auto; 
-                    left: 20px; 
-                    font-size: 18px; 
+                    left: 30px; 
+                    font-size: 10px; 
                     bottom: 10px; 
                 }
-
+    
                 img:hover {
-                    width: 80%; 
-                    height: auto;
+                    width: 85px; 
+                    height: 105px; 
                     p {
                         top: auto; 
                         left: auto; 
@@ -64,5 +67,6 @@
                 }
             }
         }
+
     }
 }

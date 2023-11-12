@@ -54,54 +54,51 @@
             margin: 10px;
             color: rgb(187, 185, 185);
         }
+    }
 
-        @media(max-width: 800px) {
-            padding: 30px;
-
-            h2 {
-                font-size: 18px;
-                padding-bottom: 10px;
+    
+}
+@media(max-width: 800px) {
+    .footer {
+        
+        h2 {
+            font-size: 15px;
+            font-weight: bold;
+        }
+        
+        .OurAwards {
+            p {
+                font-size: 12px;
             }
-
-            .OurAwards {
-                p {
-                    font-size: 16px;
-                }
-                img {
-                    width: 100%; 
-                }
-            }
-
-            .ContactInfo {
-                span {
-                    font-size: 16px;
-                    i {
-                        padding-right: 5px;
-                        margin-bottom: 5px;
-                    }
-                }
-                .socialMedia {
-                    i {
-                        padding: 10px;
-                        font-size: 24px;
-                    }
-                }
-            }
-
-            .RecentTrips {
-                img {
-                    padding-bottom: 5px;
-                    padding-right: -16px;
-                    border-radius: 10px;
-                }
-            }
-
-            .MenuFooter {
-                text-align: left;
-                span {
-                    margin: 5px;
-                }
+            img {
+                width: 80%;
             }
         }
+    
+        .ContactInfo {
+            span {
+                font-size: 12px;
+            }
+            margin-left: 2px;
+        }
+    
+        .RecentTrips {
+            img {
+                cursor: pointer;
+                height:50px;
+                width: 50px;
+                border-radius: 20px;
+            }
+        }
+    
+        .MenuFooter {
+            cursor: pointer;
+            text-align: right;
+            span {
+                display: block;
+            }
+        }
+    
+        
     }
 }

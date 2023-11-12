@@ -1,25 +1,51 @@
-.section-share{
+.section-share {
     background-color: white;
     height: 600px;
     position: relative;
     top: -77px;
     left: 0;
-    .title{
+
+    .title {
         text-align: center;
         margin-bottom: -20px;
         padding-top: 50px;
-        h2{
+
+        h2 {
             font-size: 36px;
             text-transform: none;
             letter-spacing: 0px;
             font-weight: bold;
             margin-top: -20px;
         }
-        h5{
+
+        h5 {
             margin-top: -1px;
             font-size: 15px;
             color: #8D9199;
         }
     }
+
+}
+@media (max-width: 800px) {
+    .section-share {
+        height: 600px;
+        position: relative;
+        top: 80px;
+        left: 0;
+        height: auto; 
+        padding: 20px; 
         
+        .title {
+            padding-top: 20px; 
+            
+            h2 {
+                font-size: 28px; 
+                margin-top: 0; 
+            }
+    
+            h5 {
+                font-size: 13px;
+            }
+        }
+    }
 }

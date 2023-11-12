@@ -49,3 +49,43 @@
         }
     }
 }
+@media (max-width: 800px) {
+    .ArticlesTips{
+        .content{
+            .row{
+                margin-left : -5px;
+                .PackageTip{
+                    img{
+                        width: 100%;
+                        height: 100px;
+                        cursor: pointer;
+                    }
+                    .info{
+                        cursor: pointer;
+                        margin:-20px;
+                        h5{
+                            font-size: 10px;
+                            text-transform: uppercase;
+                        }
+                        h3{
+                            font-size:12px;
+                            font-weight: bold;
+                        }
+                        p{
+                            font-size: 10px;
+                            padding-top:10px;
+                        }
+                        .readMore{
+                            font-size: 7px;
+                        }
+                    }
+                    
+                }
+                .PackageTip:hover{
+                    margin: 10px;
+                    padding: 0px;
+                }
+            }
+        }
+    }
+}

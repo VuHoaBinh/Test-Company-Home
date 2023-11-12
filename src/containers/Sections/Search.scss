@@ -51,30 +51,56 @@
         }
     }
     
-    @media(max-width: 800px) {
-        top: 100px;
-
-        .title {
-            h2 {
-                font-size: 14px;
+}
+@media(max-width: 800px) {
+    .Search{
+        top: 40px;
+        text-align: center;
+        width: 100%;
+        z-index: 2;
+        
+        .title{
+            color: #ffffff;
+            h2{
+                font-size: 15px;
+                font-weight: bold;
             }
-
-            h5 {
-                font-size: 7px;
-            }
-            button {
+            h5{
                 font-size: 7px;
             }
         }
+        .content{
+            .row{
+                width: 80%;
+                padding-left: 50px;
 
-        .content {
-            .row {
-                padding-left: 15px;
+                .formInput{
+                    width: 20%;
+                    i{
+                        position: absolute;
+                        top: 10px;
+                        left: 125px;
+                        font-size: 10px;
+                    }
+                    input, select{
+                        margin-left: 90px;
+                        font-size: 10px;
+                    }
+                    button{
+                        margin-left: 93px;
+                        font-size: 10px;
+                        padding: 4px;
+                    }
+                    
+                }
+                
             }
-
-            .AdvancedSearch {
-                margin-left: -70px;
+            .AdvancedSearch{
+                cursor: pointer;
+                margin-right: -140px;
+                font-size: 10px;
             }
         }
+        
     }
 }

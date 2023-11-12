@@ -24,3 +24,21 @@
     background-size:cover;
     margin-top:-50px;
 }
+
+@media (max-width: 800px) {
+   .WhyChooseUs {
+        .content{
+            margin-left : 40px;
+            .row{
+                .PackagePlan{
+                    .describe{
+                        h3{
+                            font-size:16px;
+                            font-weight: bold;
+                        }
+                    }
+                }
+            }
+        }
+   }
+}
