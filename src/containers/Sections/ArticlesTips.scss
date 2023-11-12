@@ -1,0 +1,51 @@
+.ArticlesTips{
+    margin-bottom: 130px;
+    .content{
+        margin-top: 80px;
+        // width: 80%; 
+        .row{
+            justify-content: center;
+            .PackageTip{
+                justify-content: center;
+                border: 1px solid #acaaaa;
+                margin: 5px;
+                padding: 0px;
+                transition: width 1s, height 1s;
+                img{
+                    position: relative;
+                    width: 100%;
+                    height: auto;
+                    cursor: pointer;
+                    
+                }
+                .info{
+                    padding: 40px;
+                    cursor: pointer;
+                    h5{
+                        font-size: 15px;
+                        text-transform: uppercase;
+                    }
+                    h3{
+                        font-size:20px;
+                        font-weight: bold;
+                    }
+                    p{
+                        color: #222222;
+                        font-size: 15px;
+                        padding-top:10px;
+                    }
+                    .readMore{
+                        color: #938e8e;
+                        font-size: 15px;
+                        padding-top:10px;
+                    }
+                }
+                
+            }
+            .PackageTip:hover{
+                margin: 15px;
+                padding: 0px;
+            }
+        }
+    }
+}

@@ -6,15 +6,7 @@ class HomeHeader extends Component {
   render() {
     return (
       <>
-        <video
-          controls
-          autoPlay
-          muted
-          loop
-          showinfo
-          modestbranding
-          width="100%"
-        >
+        <video autoPlay muted loop width="100%">
           <source src={video} type="video/mp4" />
         </video>
         <div className="header">
@@ -32,175 +24,382 @@ class HomeHeader extends Component {
           <div className="menuHeader">
             <ul className="Level1_menu">
               <li>
-                Home
-                <ul className="Level2_menu">
-                  <li>Home 1 - Background Image</li>
-                  <li>Home 2 - Youtube Video</li>
-                  <li>Home 3 - Google Inspired</li>
-                  <li>Home 4 - Travel Site</li>
-                </ul>
-              </li>
-              <li>
-                Tours
+                <a href="#">
+                  Home <i className="fa-solid fa-angle-down"></i>
+                </a>
                 <ul className="Level2_menu">
                   <li>
-                    Tour Classic Fullwidth
-                    <ul className="Level3_menu">
-                      <li>2 Columns</li>
-                      <li>3 Columns</li>
-                      <li>4 Columns</li>
-                    </ul>
+                    <a href="#">Home 1 - Background Image</a>
                   </li>
                   <li>
-                    Tour Classic Sidebar
-                    <ul className="Level3_menu">
-                      <li>Right Sidebar</li>
-                      <li>Left Sidebar</li>
-                    </ul>
+                    <a href="#">Home 2 - Youtube Video</a>
                   </li>
                   <li>
-                    Tour Grid Fullwidth
-                    <ul className="Level3_menu">
-                      <li>2 Columns</li>
-                      <li>3 Columns</li>
-                      <li>4 Columns</li>
-                    </ul>
+                    <a href="#">Home 3 - Google Inspired</a>
                   </li>
                   <li>
-                    Tour Grid Sidebar
-                    <ul className="Level3_menu">
-                      <li>Right Sidebar</li>
-                      <li>Left Sidebar</li>
-                    </ul>
-                  </li>
-                  <li>
-                    Tour List
-                    <ul className="Level3_menu">
-                      <li>Right Sidebar</li>
-                      <li>Left Sidebar</li>
-                    </ul>
-                  </li>
-                  <li>
-                    Tour Header Type
-                    <ul className="Level3_menu">
-                      <li>Featured Image</li>
-                      <li>Video</li>
-                    </ul>
-                  </li>
-                  <li>
-                    TourCategories
-                    <ul className="Level3_menu">
-                      <li>Rural</li>
-                      <li>Snow & Ice</li>
-                      <li>Wildlife</li>
-                      <li>Mountain</li>
-                    </ul>
+                    <a href="#">Home 4 - Travel Site</a>
                   </li>
                 </ul>
               </li>
               <li>
-                Booking
+                <a href="#">
+                  Tours <i className="fa-solid fa-angle-down"></i>
+                </a>
                 <ul className="Level2_menu">
                   <li>
-                    Online Payment for Booking
+                    <a href="#">
+                      Tour classNameic Fullwidth{" "}
+                      <i className="fa-solid fa-angle-right RightCorner "></i>
+                    </a>
                     <ul className="Level3_menu">
-                      <li>Variable Tour Pricing</li>
-                      <li>Simple Tour Pricing</li>
+                      <li>
+                        <a href="#">2 Columns</a>
+                      </li>
+                      <li>
+                        <a href="#">3 Columns</a>
+                      </li>
+                      <li>
+                        <a href="#">4 Columns</a>
+                      </li>
                     </ul>
                   </li>
                   <li>
-                    Custom Booking Form
+                    <a href="#">
+                      Tour classNameic Sidebar{" "}
+                      <i className="fa-solid fa-angle-right RightCorner "></i>
+                    </a>
                     <ul className="Level3_menu">
-                      <li>Booking Form + Sub Tour Date</li>
-                      <li>Booking Form + Custom Date</li>
+                      <li>
+                        <a href="#">Right Sidebar</a>
+                      </li>
+                      <li>
+                        <a href="#">Left Sidebar</a>
+                      </li>
                     </ul>
                   </li>
                   <li>
-                    Tour Durations
+                    <a href="#">
+                      Tour Grid Fullwidth{" "}
+                      <i className="fa-solid fa-angle-right RightCorner "></i>
+                    </a>
                     <ul className="Level3_menu">
-                      <li>Single Day Tour</li>
-                      <li>Multiple Days Tour</li>
+                      <li>
+                        <a href="#">2 Columns</a>
+                      </li>
+                      <li>
+                        <a href="#">3 Columns</a>
+                      </li>
+                      <li>
+                        <a href="#">4 Columns</a>
+                      </li>
                     </ul>
                   </li>
-                  <li>Custom Booking URL for Affiliate Tour</li>
-                  <li>Custom Booking using custom HTML & Shortcode</li>
                   <li>
-                    Header Options
+                    <a href="#">
+                      Tour Grid Sidebar{" "}
+                      <i className="fa-solid fa-angle-right RightCorner "></i>
+                    </a>
                     <ul className="Level3_menu">
-                      <li>Standard Background Header</li>
-                      <li>Video Background Header</li>
+                      <li>
+                        <a href="#">Right Sidebar</a>
+                      </li>
+                      <li>
+                        <a href="#">Left Sidebar</a>
+                      </li>
                     </ul>
                   </li>
                   <li>
-                    Layout Options
+                    <a href="#">
+                      Tour List{" "}
+                      <i className="fa-solid fa-angle-right RightCorner "></i>
+                    </a>
                     <ul className="Level3_menu">
-                      <li>With Sidebar</li>
-                      <li>Fullwidth</li>
+                      <li>
+                        <a href="#">Right Sidebar</a>
+                      </li>
+                      <li>
+                        <a href="#">Left Sidebar</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">
+                      Tour Header Type{" "}
+                      <i className="fa-solid fa-angle-right RightCorner "></i>
+                    </a>
+                    <ul className="Level3_menu">
+                      <li>
+                        <a href="#">Featured Image</a>
+                      </li>
+                      <li>
+                        <a href="#">Video</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">
+                      TourCategories{" "}
+                      <i className="fa-solid fa-angle-right RightCorner "></i>
+                    </a>
+                    <ul className="Level3_menu">
+                      <li>
+                        <a href="#">Rural</a>
+                      </li>
+                      <li>
+                        <a href="#">Snow & Ice</a>
+                      </li>
+                      <li>
+                        <a href="#">Wildlife</a>
+                      </li>
+                      <li>
+                        <a href="#">Mountain</a>
+                      </li>
                     </ul>
                   </li>
                 </ul>
               </li>
               <li>
-                Destinations
+                <a href="#">
+                  Booking <i className="fa-solid fa-angle-down"></i>
+                </a>
                 <ul className="Level2_menu">
-                  <li>Destination Fullwidth</li>
-                  <li>Destination + Video Header</li>
-                  <li>Destination Right Sidebar</li>
-                  <li>Destination Left Sidebar</li>
-                  <li>Single Destination</li>
-                  <li>Single Destination + Video</li>
+                  <li>
+                    <a href="#">
+                      Online Payment for Booking{" "}
+                      <i className="fa-solid fa-angle-right RightCorner "></i>
+                    </a>
+                    <ul className="Level3_menu">
+                      <li>
+                        <a href="#">Variable Tour Pricing</a>
+                      </li>
+                      <li>
+                        <a href="#">Simple Tour Pricing</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">
+                      Custom Booking Form{" "}
+                      <i className="fa-solid fa-angle-right RightCorner "></i>
+                    </a>
+                    <ul className="Level3_menu">
+                      <li>
+                        <a href="#">Booking Form + Sub Tour Date</a>
+                      </li>
+                      <li>
+                        <a href="#">Form + Custom Date</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">
+                      Tour Durations{" "}
+                      <i className="fa-solid fa-angle-right RightCorner "></i>
+                    </a>
+                    <ul className="Level3_menu">
+                      <li>
+                        <a href="#">Single Day Tour</a>
+                      </li>
+                      <li>
+                        <a href="#">Multiple Days Tour</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">Custom Booking URL for Affiliate Tour</a>
+                  </li>
+                  <li>
+                    <a href="#">Custom Booking using custom HTML & Shortcode</a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      Header Options{" "}
+                      <i className="fa-solid fa-angle-right RightCorner "></i>
+                    </a>
+                    <ul className="Level3_menu">
+                      <li>
+                        <a href="#">Standard Background Header</a>
+                      </li>
+                      <li>
+                        <a href="#">Video Background Header</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">
+                      Layout Options{" "}
+                      <i className="fa-solid fa-angle-right RightCorner "></i>
+                    </a>
+                    <ul className="Level3_menu">
+                      <li>
+                        <a href="#">With Sidebar</a>
+                      </li>
+                      <li>
+                        <a href="#">Fullwidth</a>
+                      </li>
+                    </ul>
+                  </li>
                 </ul>
               </li>
               <li>
-                Pages
+                <a href="#">
+                  Destinations <i className="fa-solid fa-angle-down"></i>
+                </a>
                 <ul className="Level2_menu">
-                  <li>About Us</li>
-                  <li>Contact Us</li>
-                  <li>FAQs</li>
-                  <li>Gallery</li>
-                  <li>Page Fullwidth</li>
-                  <li>Page + Video Background Header</li>
-                  <li>Page Right Sidebar</li>
-                  <li>Page Left Sidebar</li>
+                  <li>
+                    <a href="#">Destination Fullwidth</a>
+                  </li>
+                  <li>
+                    <a href="#">Destination + Video Header</a>
+                  </li>
+                  <li>
+                    <a href="#">Destination Right Sidebar</a>
+                  </li>
+                  <li>
+                    <a href="#">Destination Left Sidebar</a>
+                  </li>
+                  <li>
+                    <a href="#">Single Destination</a>
+                  </li>
+                  <li>
+                    <a href="#">Single Destination + Video</a>
+                  </li>
                 </ul>
               </li>
               <li>
-                Blog
+                <a href="#">
+                  Pages <i className="fa-solid fa-angle-down"></i>
+                </a>
                 <ul className="Level2_menu">
-                  <li>Blog Right Sidebar</li>
-                  <li>Blog Left Sidebar</li>
-                  <li>Blog Fullwidth</li>
-                  <li>Blog Grid Right Sidebar</li>
-                  <li>Blog Grid Left Sidebar</li>
-                  <li>Blog Grid Fullwidth</li>
-                  <li>Blog Full + Grid Right Sidebar</li>
-                  <li>Blog Full + Grid Left Sidebar</li>
-                  <li>Blog Full + Grid Fullwidth</li>
+                  <li>
+                    <a href="#">About Us</a>
+                  </li>
+                  <li>
+                    <a href="#">Contact Us</a>
+                  </li>
+                  <li>
+                    <a href="#">FAQs</a>
+                  </li>
+                  <li>
+                    <a href="#">Gallery</a>
+                  </li>
+                  <li>
+                    <a href="#">Page Fullwidth</a>
+                  </li>
+                  <li>
+                    <a href="#">Page + Video Background Header</a>
+                  </li>
+                  <li>
+                    <a href="#">Page Right Sidebar</a>
+                  </li>
+                  <li>
+                    <a href="#">Page Left Sidebar</a>
+                  </li>
                 </ul>
               </li>
               <li>
-                Shortcodes
+                <a href="#">
+                  Blog <i className="fa-solid fa-angle-down"></i>
+                </a>
                 <ul className="Level2_menu">
-                  <li>Accordion & Toggles</li>
-                  <li>Alert Boxes</li>
-                  <li>Animated Content</li>
-                  <li>Buttons & Social Icons</li>
-                  <li>Columns</li>
-                  <li>Google Maps</li>
-                  <li>Image Frame & Animation</li>
-                  <li>Image Teasers</li>
-                  <li>Pricing Tables</li>
-                  <li>Tabs</li>
+                  <li>
+                    <a href="#">Blog Right Sidebar</a>
+                  </li>
+                  <li>
+                    <a href="#">Blog Left Sidebar</a>
+                  </li>
+                  <li>
+                    <a href="#">Blog Fullwidth</a>
+                  </li>
+                  <li>
+                    <a href="#">Blog Grid Right Sidebar</a>
+                  </li>
+                  <li>
+                    <a href="#">Blog Grid Left Sidebar</a>
+                  </li>
+                  <li>
+                    <a href="#">Blog Grid Fullwidth</a>
+                  </li>
+                  <li>
+                    <a href="#">Blog Full + Grid Right Sidebar</a>
+                  </li>
+                  <li>
+                    <a href="#">Blog Full + Grid Left Sidebar</a>
+                  </li>
+                  <li>
+                    <a href="#">Blog Full + Grid Fullwidth</a>
+                  </li>
                 </ul>
               </li>
               <li>
-                Shop
+                <a href="#">
+                  Shortcodes <i className="fa-solid fa-angle-down"></i>
+                </a>
                 <ul className="Level2_menu">
-                  <li>Shop Fullwidth</li>
-                  <li>Shop Sidebar</li>
-                  <li>Single Product Fullwidth</li>
-                  <li>Single Product With Sidebar</li>
+                  <li>
+                    <a href="#">Accordion & Toggles</a>
+                  </li>
+                  <li>
+                    <a href="#">Alert Boxes</a>
+                  </li>
+                  <li>
+                    <a href="#">Animated Content</a>
+                  </li>
+                  <li>
+                    <a href="#">Buttons & Social Icons</a>
+                  </li>
+                  <li>
+                    <a href="#">Columns</a>
+                  </li>
+                  <li>
+                    <a href="#">Google Maps</a>
+                  </li>
+                  <li>
+                    <a href="#">Image Frame & Animation</a>
+                  </li>
+                  <li>
+                    <a href="#">Image Teasers</a>
+                  </li>
+                  <li>
+                    <a href="#">Pricing Tables</a>
+                  </li>
+                  <li>
+                    <a href="#">Tabs</a>
+                  </li>
                 </ul>
+              </li>
+              <li>
+                <a href="#">
+                  Shop <i className="fa-solid fa-angle-down"></i>
+                </a>
+                <ul className="Level2_menu">
+                  <li>
+                    <a href="#">Shop Fullwidth</a>
+                  </li>
+                  <li>
+                    <a href="#">Shop Sidebar</a>
+                  </li>
+                  <li>
+                    <a href="#">Single Product Fullwidth</a>
+                  </li>
+                  <li>
+                    <a href="#">Single Product With Sidebar</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">
+                  <i
+                    className="fa-solid fa-bars barMenu"
+                    onClick={(event) => this.onClickMenu(event)}
+                  ></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i className="fa-solid fa-cart-shopping barMenu"></i>
+                </a>
               </li>
             </ul>
           </div>

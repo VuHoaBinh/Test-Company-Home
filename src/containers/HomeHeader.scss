@@ -1,3 +1,7 @@
+video{
+    margin-bottom:-100px;
+    height:auto;
+}
 .header{
     .logo{
         position: absolute;
@@ -5,24 +9,90 @@
         left:150px;
     }
     .menuHeader{
+        z-index: 3;
         position: absolute;
-        top:10px;
-        right:120px;
-        .Level1_menu{
+        top: 25px;
+        right: 50px;
+        list-style: none;
+        .Level1_menu {
             list-style-type: none;
-            li{
-                display: inline-block;
-                margin: 0px 5px;
-                padding:26px 17px 26px;
-                .Level2_menu{
-                    display: none;
-                    .Level3_menu{
-                    }
-            
-                }
-    
+            display: flex;
+            a{
+                text-decoration: none;
+                color: rgb(255, 255, 255);
+                padding: 10px;
+                // font-weight: bold;
+            }
+            li {
+                position: relative;
+                list-style-type: none;
+                padding: 10px;
+            }
+            .RightCorner{
+                float: right;
+                opacity: 0.5;
             }
         }
-       
+        
+        .Level2_menu,
+        .Level3_menu {
+            display: none;
+            position: absolute;
+            top: 101%;
+            left: -40px;
+            
+            
+        }
+        .Level3_menu{
+            top: 0px;
+            left: 210px;
+            
+        }
+        .Level1_menu li:hover > .Level2_menu,
+        .Level2_menu li:hover > .Level3_menu {
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            
+        }
+        
+        .Level2_menu li,
+        .Level3_menu li {
+            padding: 10px;
+            background-color: #ffffff;
+            
+        }
+        
+        .Level2_menu a,
+        .Level3_menu a {
+            color: rgb(3, 3, 3);
+            
+        }
+        
+        .Level1_menu li:hover {
+            color: red;
+            
+        }
+        
+        .Level2_menu li :hover {
+            color: red;
+        }
+        
+        .Level3_menu li:hover {
+            color: red;
+        }
+    }
+    @media (max-width: 800px) {
+        .logo {
+            left: 20px; 
+        }
+
+        .menuHeader {
+            display: none;
+        }
+        
     }
 }
+
+
+

@@ -1,53 +1,107 @@
-.footer{
+.footer {
     width: 100%;
-    background-color:black;
-    color:white;
-    padding:70px;
-    h2{
+    background-color: black;
+    color: white;
+    padding: 70px;
+
+    h2 {
         font-size: 22px;
         font-weight: bold;
-        padding-bottom:20px; 
+        padding-bottom: 20px;
     }
-    .OurAwards{
-        p{
+
+    .OurAwards {
+        p {
             font-size: 18px;
-            color:rgb(187, 185, 185);
+            color: rgb(187, 185, 185);
         }
-        img{
+        img {
             width: 80%;
         }
     }
-    .ContactInfo{
-        span{
-            font-size:18px;
-            color:rgb(187, 185, 185);
-            i{
+
+    .ContactInfo {
+        span {
+            font-size: 18px;
+            color: rgb(187, 185, 185);
+            i {
                 padding-right: 10px;
                 margin-bottom: 10px;
             }
         }
-        .socialMedia{
-            i{
+        .socialMedia {
+            i {
                 padding: 15px;
                 font-size: 34px;
                 cursor: pointer;
             }
         }
     }
-    .RecentTrips{
-        img{
+
+    .RecentTrips {
+        img {
             cursor: pointer;
             padding-bottom: 10px;
             padding-right: -32px;
             border-radius: 20px;
         }
     }
-    .MenuFooter{
+
+    .MenuFooter {
+        cursor: pointer;
         text-align: right;
-        span{
+        span {
             margin: 10px;
-            color:rgb(187, 185, 185);
+            color: rgb(187, 185, 185);
         }
-        
+
+        @media(max-width: 800px) {
+            padding: 30px;
+
+            h2 {
+                font-size: 18px;
+                padding-bottom: 10px;
+            }
+
+            .OurAwards {
+                p {
+                    font-size: 16px;
+                }
+                img {
+                    width: 100%; 
+                }
+            }
+
+            .ContactInfo {
+                span {
+                    font-size: 16px;
+                    i {
+                        padding-right: 5px;
+                        margin-bottom: 5px;
+                    }
+                }
+                .socialMedia {
+                    i {
+                        padding: 10px;
+                        font-size: 24px;
+                    }
+                }
+            }
+
+            .RecentTrips {
+                img {
+                    padding-bottom: 5px;
+                    padding-right: -16px;
+                    border-radius: 10px;
+                }
+            }
+
+            .MenuFooter {
+                text-align: left;
+                span {
+                    margin: 5px;
+                }
+            }
+        }
     }
 }
